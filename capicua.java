@@ -15,9 +15,7 @@ public class capicua {
 
         for(int i = 0; i < cadena1.length(); i++){
 
-            char value = cadena1.charAt(i);
-
-            if(value == cadena1.charAt(cadena1.length()-i-1)){
+            if(cadena1.charAt(i) == cadena1.charAt(cadena1.length()-i-1)){
 
                 /* en el caso de que llegué al punto de inflexión, rompe el bucle => no es necesario, 
                 esto sirve si te interesa saber el numero EXACTO de coincidencias; */
@@ -40,5 +38,3 @@ public class capicua {
 
 
 }
-
-
